@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="67011" started-at="2022-04-27T04:11:22Z" finished-at="2022-04-27T04:12:29Z">
+    <groups>
+    </groups>
+    <test name="On chrome" duration-ms="52462" started-at="2022-04-27T04:11:22Z" finished-at="2022-04-27T04:12:15Z">
+      <class name="grid.GridEg1">
+        <test-method status="PASS" signature="grid(java.lang.String, java.lang.String)[pri:0, instance:grid.GridEg1@6767c1fc]" name="grid" duration-ms="52284" started-at="2022-04-27T04:11:22Z" finished-at="2022-04-27T04:12:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- grid -->
+      </class> <!-- grid.GridEg1 -->
+    </test> <!-- On chrome -->
+    <test name="On firefox" duration-ms="67011" started-at="2022-04-27T04:11:22Z" finished-at="2022-04-27T04:12:29Z">
+      <class name="grid.GridEg1">
+        <test-method status="PASS" signature="grid(java.lang.String, java.lang.String)[pri:0, instance:grid.GridEg1@23ceabc1]" name="grid" duration-ms="66846" started-at="2022-04-27T04:11:22Z" finished-at="2022-04-27T04:12:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- grid -->
+      </class> <!-- grid.GridEg1 -->
+    </test> <!-- On firefox -->
+  </suite> <!-- Suite -->
+</testng-results>

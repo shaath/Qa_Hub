@@ -1,0 +1,17 @@
+package com.mvnProject;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+
+
+public class FFLaunch {
+
+	public static void main(String[] args) {
+		System.setProperty("webdriver.gecko.driver", "D:\\QAHub_Training\\Jars/geckodriver.exe");
+		WebDriver driver = new FirefoxDriver();
+
+		driver.get("https://google.com");
+
+	}
+
+}

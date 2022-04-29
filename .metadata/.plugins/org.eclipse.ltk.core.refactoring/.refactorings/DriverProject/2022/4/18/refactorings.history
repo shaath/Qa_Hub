@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;com.SeleniumProject.properties&apos; to &apos;com.DriverProject.properties&apos;&#x0D;&#x0A;- Original project: &apos;DriverProject&apos;&#x0D;&#x0A;- Original element: &apos;DriverProject/src/com.SeleniumProject.properties&apos;&#x0D;&#x0A;- Renamed element: &apos;DriverProject/src/com.DriverProject.properties&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;com.SeleniumProject.properties&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src&lt;com.SeleniumProject.properties" name="com.DriverProject.properties" qualified="false" references="true" stamp="1650856945148" textual="false" version="1.0"/>
+</session>
